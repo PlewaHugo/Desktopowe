@@ -1,0 +1,16 @@
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.exe
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.deps.json
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.runtimeconfig.json
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.pdb
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie_hamrol.Form1.resources
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.csproj.GenerateResource.cache
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.AssemblyInfoInputs.cache
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.AssemblyInfo.cs
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.csproj.CoreCompileInputs.cache
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\refint\zadanie hamrol.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.pdb
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.genruntimeconfig.cache
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\ref\zadanie hamrol.dll
