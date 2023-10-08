@@ -14,3 +14,9 @@ C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windo
 C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.pdb
 C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.genruntimeconfig.cache
 C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\ref\zadanie hamrol.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.Core.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.Shared.dll
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.Core.pdb
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\bin\Debug\net6.0-windows\zadanie hamrol.Shared.pdb
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.csproj.AssemblyReference.cache
+C:\Users\hugop\source\repos\zadanie hamrol\zadanie hamrol\obj\Debug\net6.0-windows\zadanie hamrol.csproj.CopyComplete

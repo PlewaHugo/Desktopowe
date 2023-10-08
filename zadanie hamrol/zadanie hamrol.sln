@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zadanie hamrol", "zadanie hamrol\zadanie hamrol.csproj", "{22CBFC38-22EE-4C3D-A373-5EC985CFCC52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie hamrol.Core", "zadanie hamrol.Core\zadanie hamrol.Core.csproj", "{3480A049-E33A-41FD-A6AD-2A0CB1E98836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadanie hamrol.Shared", "zadanie hamrol.Shared\zadanie hamrol.Shared.csproj", "{CDC992B2-E3DA-42AC-A04D-466B24066A71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{22CBFC38-22EE-4C3D-A373-5EC985CFCC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22CBFC38-22EE-4C3D-A373-5EC985CFCC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22CBFC38-22EE-4C3D-A373-5EC985CFCC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3480A049-E33A-41FD-A6AD-2A0CB1E98836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3480A049-E33A-41FD-A6AD-2A0CB1E98836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3480A049-E33A-41FD-A6AD-2A0CB1E98836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3480A049-E33A-41FD-A6AD-2A0CB1E98836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC992B2-E3DA-42AC-A04D-466B24066A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC992B2-E3DA-42AC-A04D-466B24066A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC992B2-E3DA-42AC-A04D-466B24066A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC992B2-E3DA-42AC-A04D-466B24066A71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "zadanie hamrol.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "zadanie hamrol.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/zadanie hamrol.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zadanie hamrol.Core.dll": {}
+        }
+      },
+      "zadanie hamrol.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/zadanie hamrol.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zadanie hamrol.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "zadanie hamrol.Core/1.0.0": {
+      "type": "project",
+      "path": "../zadanie hamrol.Core/zadanie hamrol.Core.csproj",
+      "msbuildProject": "../zadanie hamrol.Core/zadanie hamrol.Core.csproj"
+    },
+    "zadanie hamrol.Shared/1.0.0": {
+      "type": "project",
+      "path": "../zadanie hamrol.Shared/zadanie hamrol.Shared.csproj",
+      "msbuildProject": "../zadanie hamrol.Shared/zadanie hamrol.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "zadanie hamrol.Core >= 1.0.0",
+      "zadanie hamrol.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hugop\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hugop\\source\\repos\\zadanie hamrol\\zadanie hamrol.Core\\zadanie hamrol.Core.csproj": {
+              "projectPath": "C:\\Users\\hugop\\source\\repos\\zadanie hamrol\\zadanie hamrol.Core\\zadanie hamrol.Core.csproj"
+            },
+            "C:\\Users\\hugop\\source\\repos\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {
+              "projectPath": "C:\\Users\\hugop\\source\\repos\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

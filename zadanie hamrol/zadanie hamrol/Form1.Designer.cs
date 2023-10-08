@@ -39,6 +39,8 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             button1 = new Button();
+            textBox5 = new TextBox();
+            label6 = new Label();
             SuspendLayout();
             // 
             // richTextBox1
@@ -135,11 +137,29 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(553, 325);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(182, 23);
+            textBox5.TabIndex = 11;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(553, 307);
+            label6.Name = "label6";
+            label6.Size = new Size(110, 15);
+            label6.TabIndex = 12;
+            label6.Text = "Czas działania kodu";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label6);
+            Controls.Add(textBox5);
             Controls.Add(button1);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -153,6 +173,7 @@
             Controls.Add(richTextBox1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,5 +191,7 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Button button1;
+        private TextBox textBox5;
+        private Label label6;
     }
 }
