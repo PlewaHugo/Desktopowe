@@ -1,4 +1,4 @@
-﻿namespace PR01E3.Shared.Entities
+﻿namespace zadanie_hamrol.Shared.Entities
 {
     public class SymbolPrintingData
     {

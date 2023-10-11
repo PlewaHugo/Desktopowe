@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "zadanie hamrol.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "zadanie hamrol.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/zadanie hamrol.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zadanie hamrol.Core.dll": {}
+        }
+      },
+      "zadanie hamrol.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/zadanie hamrol.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zadanie hamrol.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "zadanie hamrol.Core/1.0.0": {
+      "type": "project",
+      "path": "../zadanie hamrol.Core/zadanie hamrol.Core.csproj",
+      "msbuildProject": "../zadanie hamrol.Core/zadanie hamrol.Core.csproj"
+    },
+    "zadanie hamrol.Shared/1.0.0": {
+      "type": "project",
+      "path": "../zadanie hamrol.Shared/zadanie hamrol.Shared.csproj",
+      "msbuildProject": "../zadanie hamrol.Shared/zadanie hamrol.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "zadanie hamrol.Core >= 1.0.0",
+      "zadanie hamrol.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\student\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol\\zadanie hamrol.csproj",
+      "projectName": "zadanie hamrol",
+      "projectPath": "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol\\zadanie hamrol.csproj",
+      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol.Core\\zadanie hamrol.Core.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol.Core\\zadanie hamrol.Core.csproj"
+            },
+            "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\Hugo\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

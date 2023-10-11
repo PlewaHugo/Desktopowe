@@ -1,6 +1,6 @@
-﻿using PR01E3.Shared.Entities;
+﻿using zadanie_hamrol.Shared.Entities;
 
-namespace PR01E3.Shared.Interfaces
+namespace zadanie_hamrol.Shared.Interfaces
 {
     public interface ITextStatisticsService
     {
