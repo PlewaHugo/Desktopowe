@@ -17,11 +17,9 @@ namespace zadanie_hamrol.Presenters
         private TextBox _tb_Special;
         private TextBox _tb_Time;
         private ITextAnalyzerService _textAnalyzerService;
-        public TextAnalyzerDataPresenter(TextBox textbox1, TextBox textbox2, TextBox textbox3, TextBox textbox4, TextBox textbox5) 
+        public TextAnalyzerDataPresenter(TextBox textbox1, TextBox textbox4, TextBox textbox5) 
         {
             _tb_Length = textbox1;
-            _tb_Letters = textbox2;
-            _tb_Digits = textbox3;
             _tb_Special = textbox4;
             _tb_Time = textbox5;
             _textAnalyzerService = new TextAnalyzerService();
@@ -37,8 +35,6 @@ namespace zadanie_hamrol.Presenters
 
             // drukowanie wyników
             _tb_Length.Text = result.textLength.ToString();
-            _tb_Letters.Text = result.hasLetter ? "TAK" : "NIE";
-            _tb_Digits.Text = result.hasNumber ? "TAK" : "NIE";
             _tb_Special.Text = result.hasSpecial ? "TAK" : "NIE";
             _tb_Time.Text = sw.ElapsedMilliseconds.ToString();
         }
