@@ -6,7 +6,6 @@ namespace zadanie_hamrol
     public partial class Form1 : Form
     {
         private TextAnalyzerDataPresenter textAnalyzerDataPresenter;
-        private BaseTextStatisticsPrezenter baseTextStatisticsPresenter;
         public Form1()
         {
             InitializeComponent();
@@ -14,7 +13,7 @@ namespace zadanie_hamrol
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             textAnalyzerDataPresenter.PerformTextAnalysis(richTextBox1.Text);
             openFileDialog1.InitialDirectory = Environment.CurrentDirectory;
             openFileDialog1.Filter = "Pliki tekstowe (.txt)|.txt|Wszystkie pliki (.)|.";
@@ -27,7 +26,6 @@ namespace zadanie_hamrol
         private void Form1_Load(object sender, EventArgs e)
         {
             textAnalyzerDataPresenter = new TextAnalyzerDataPresenter(textBox1, textBox4, textBox5);
-            baseTextStatisticsPresenter = new BaseTextStatisticsPrezenter(richTextBox1);
         }
     }
 }
