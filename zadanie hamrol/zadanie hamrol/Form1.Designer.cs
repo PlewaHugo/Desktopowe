@@ -38,10 +38,17 @@
             textBox5 = new TextBox();
             label6 = new Label();
             label7 = new Label();
-            richTextBox2 = new RichTextBox();
             label3 = new Label();
             textBox2 = new TextBox();
             openFileDialog1 = new OpenFileDialog();
+            dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // richTextBox1
@@ -132,14 +139,6 @@
             label7.TabIndex = 13;
             label7.Text = "Statystyka : ";
             // 
-            // richTextBox2
-            // 
-            richTextBox2.Location = new Point(2, 158);
-            richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(530, 280);
-            richTextBox2.TabIndex = 14;
-            richTextBox2.Text = "";
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -160,14 +159,54 @@
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
+            dataGridView1.Location = new Point(2, 160);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(530, 278);
+            dataGridView1.TabIndex = 17;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Zapis binarny";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Zapis dziesiętny";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Symbol";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Częstość";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Prawdopodobieństwo";
+            Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            Column6.HeaderText = "Ilość informacji";
+            Column6.Name = "Column6";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView1);
             Controls.Add(textBox2);
             Controls.Add(label3);
-            Controls.Add(richTextBox2);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(textBox5);
@@ -181,6 +220,7 @@
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -197,9 +237,15 @@
         private TextBox textBox5;
         private Label label6;
         private Label label7;
-        private RichTextBox richTextBox2;
         private Label label3;
         private TextBox textBox2;
         private OpenFileDialog openFileDialog1;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column6;
     }
 }
