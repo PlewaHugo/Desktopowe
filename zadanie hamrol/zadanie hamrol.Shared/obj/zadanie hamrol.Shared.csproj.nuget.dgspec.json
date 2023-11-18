@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugop\\Desktop\\projekt_04\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {}
+    "C:\\Users\\hugop\\Desktop\\fiwego\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugop\\Desktop\\projekt_04\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {
+    "C:\\Users\\hugop\\Desktop\\fiwego\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugop\\Desktop\\projekt_04\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\hugop\\Desktop\\fiwego\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj",
         "projectName": "zadanie hamrol.Shared",
-        "projectPath": "C:\\Users\\hugop\\Desktop\\projekt_04\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj",
+        "projectPath": "C:\\Users\\hugop\\Desktop\\fiwego\\zadanie hamrol\\zadanie hamrol.Shared\\zadanie hamrol.Shared.csproj",
         "packagesPath": "C:\\Users\\hugop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugop\\Desktop\\projekt_04\\zadanie hamrol\\zadanie hamrol.Shared\\obj\\",
+        "outputPath": "C:\\Users\\hugop\\Desktop\\fiwego\\zadanie hamrol\\zadanie hamrol.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
